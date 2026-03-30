@@ -12,7 +12,7 @@ bidiff = "1.0.0"
 pipe = "0.4.0"
 # comde is a wrapper around several compression libraries.
 # We only use zstd and could depend on it directly instead.
-comde = { version = "0.2.3", default-features = false, features = [
+comde = { version = "0.3.1", default-features = false, features = [
   "zstandard",
 ] }
 
@@ -21,6 +21,6 @@ comde = { version = "0.2.3", default-features = false, features = [
 
 # For computing hashes of patch files for validation.
 # Only used by the string_patch tool for now.
-sha2 = "0.10.6"
+sha2 = "0.11.0"
 # For encoding hashes for Patch network responses.
 hex = "0.4.3"
